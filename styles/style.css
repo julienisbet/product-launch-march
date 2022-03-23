@@ -15,7 +15,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--silver-chalice);
 }
-header {
+section {
   width: 50vw;
 }
 main {
@@ -46,4 +46,8 @@ img {
   main {
     height: 50vh;
   }
+}
+
+.hide {
+  display: none;
 }

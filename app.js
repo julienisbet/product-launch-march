@@ -1,8 +1,14 @@
-// import functions
+console.log('hello from app.js');
 
-// grab DOM elements
+let dog = 'Ben Donich';
 
-// set event listeners 
-    // get user input
-    // use user input to update state 
-    // update DOM to reflect the new state
+console.log(`My dog's name is ${dog}`);
+console.log(`${dog} is very cute.`);
+
+// const label = document.getElementById('label');
+// // label.textContent = 'awesome blossom';
+// label.style.color = 'blue';
+// label.style.fontSize = '4rem';
+
+const darkText = document.querySelector('.dark-text');
+console.log(darkText)
