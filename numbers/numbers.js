@@ -12,7 +12,7 @@ console.log({ randomNum });
 
 // add an event listener to the button
 button.addEventListener('click', ()=>{
-  if(remainingGuesses === 0) return;
+    if (remainingGuesses === 0) return;
   // get the value of the user input
     const userGuess = Number(userInput.value);  
   // if userInput is the same as our random num
